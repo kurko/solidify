@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "solidify"
   gem.require_paths = ["lib"]
   gem.version       = Solidify::VERSION
+
+  gem.add_development_dependency("rspec")
 end
